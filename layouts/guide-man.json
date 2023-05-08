@@ -1,0 +1,609 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "guide_32man",
+  "name": "guide man",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1.0159150236263463,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "blocks",
+      "type": "string",
+      "value": "[\n  {\n    \"type\": \"Keep\",\n    \"text\": \"Keep\"\n  },\n  {\n    \"type\": \"on\",\n    \"text\": \"on\"\n  },\n  {\n    \"type\": \"go\",\n    \"text\": \"going\"\n  },\n  {\n    \"type\": \"for\",\n    \"text\": \"for\"\n  },\n  {\n    \"type\": \"a\",\n    \"text\": \"a\"\n  },\n  {\n    \"type\": \"bit\",\n    \"text\": \"bit\"\n  },\n  {\n    \"type\": \"while\",\n    \"text\": \"while\"\n  }\n]"
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 238,
+      "layer": "",
+      "name": "holder",
+      "persistentUuid": "afdfb2b4-c5a2-4490-a0b3-86cd3b033955",
+      "width": 382,
+      "x": 274,
+      "y": 258,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "type",
+          "type": "string",
+          "value": "inv"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 49,
+      "layer": "",
+      "name": "holder2",
+      "persistentUuid": "3c5a8dbe-6e1b-4689-a219-64edac092259",
+      "width": 761,
+      "x": 75,
+      "y": 165,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "holder",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "type",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlexContainer",
+          "type": "FlexBox::FlexContainer",
+          "ID": "Default",
+          "Direction": "right",
+          "Wrap": "wrap",
+          "JustifyContent": "center",
+          "AlignItems": "flex-start",
+          "AlignContent": "flex-start",
+          "Gap": 8
+        }
+      ],
+      "animations": [
+        {
+          "name": "holder",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "holder",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "holder2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "type",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlexContainer",
+          "type": "FlexBox::FlexContainer",
+          "ID": "Message",
+          "Direction": "right",
+          "Wrap": "wrap",
+          "JustifyContent": "center",
+          "AlignItems": "flex-start",
+          "AlignContent": "center",
+          "Gap": 8
+        }
+      ],
+      "animations": [
+        {
+          "name": "holder",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "holder",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 12,
+      "height": 32,
+      "leftMargin": 6,
+      "name": "wordBlock",
+      "rightMargin": 6,
+      "tags": "",
+      "texture": "assets\\wordBlock.png",
+      "tiled": true,
+      "topMargin": 6,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlexItem",
+          "type": "FlexBox::FlexItem",
+          "ContainerID": "Default",
+          "Growth": 0,
+          "Shrink": 0,
+          "Order": 0,
+          "AlignSelf": "auto",
+          "FullWidth": false,
+          "FullHeight": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "wordText",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true
+        }
+      ],
+      "content": {
+        "text": "word",
+        "opacity": 255,
+        "fontSize": 16,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "assets\\Minecraft.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONToVariableStructure"
+              },
+              "parameters": [
+                "VariableString(blocks)",
+                "blocksData"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "holder",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEachChildVariable",
+          "iterableVariableName": "blocksData",
+          "valueIteratorVariableName": "block",
+          "keyIteratorVariableName": "blockIndex",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "wordBlock",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteObject::Width"
+                  },
+                  "parameters": [
+                    "wordBlock",
+                    "=",
+                    "72"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "wordText",
+                        "0",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "wordText",
+                        "=",
+                        "VariableString(block.text)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteObject::Width"
+                      },
+                      "parameters": [
+                        "wordBlock",
+                        "=",
+                        "wordText.Width()+16"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteObject::Height"
+                      },
+                      "parameters": [
+                        "wordBlock",
+                        "=",
+                        "RandomInRange(32,64)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "wordText",
+                        "=",
+                        "wordBlock.CenterX()",
+                        "=",
+                        "wordBlock.CenterY()-4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sticker::Sticker::Stick"
+                      },
+                      "parameters": [
+                        "wordText",
+                        "Sticker",
+                        "wordBlock",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlexBox::FlexItem::SetContainer"
+                      },
+                      "parameters": [
+                        "wordBlock",
+                        "FlexItem",
+                        "\"Message\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "wordBlock",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "checked",
+            "False"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "wordBlock",
+                "inMessage",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlexBox::FlexItem::SetContainer"
+              },
+              "parameters": [
+                "wordBlock",
+                "FlexItem",
+                "\"Default\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "checked",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "wordBlock",
+                "inMessage",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "wordBlock",
+                "inMessage",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "checked",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlexBox::FlexItem::SetContainer"
+              },
+              "parameters": [
+                "wordBlock",
+                "FlexItem",
+                "\"Message\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "wordBlock",
+                "inMessage",
+                "True"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 1,
+      "ambientLightColorG": 134217728,
+      "ambientLightColorR": 1597066561,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "FlexContainer",
+      "type": "FlexBox::FlexContainer"
+    },
+    {
+      "name": "FlexItem",
+      "type": "FlexBox::FlexItem"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
+    }
+  ]
+}

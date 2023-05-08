@@ -141,6 +141,31 @@
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/holder.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "holder",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/wordBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\wordBlock.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Minecraft.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Minecraft.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -152,10 +177,23 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cat-game-prototype"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/guide-man"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flexbox"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
